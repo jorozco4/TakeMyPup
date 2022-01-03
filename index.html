@@ -18,12 +18,56 @@
   <body>
     <div class="this-nav" id="centered_nav">
       <h1>TakeMyPup</h1>
-      <a href="#home" title="Home">Home</a>
+      <a href="#home" title="Home">Home </a>
 
-      <a href="#about" title="About">About</a>
+      <a href="./componen-about.html" title="About">About</a>
     </div>
-    <div class="row">
-      <div class="col">
+    <div>
+      <p>
+        Need to find a place to take your pup on the next adventure. Say no
+        more! TakeMyPup is dedicated to finding the next great adventure for
+        your pup. Please locate your city using the search bar below and begin
+        your journey.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-sm-3">
+          <input
+            type="text"
+            placeholder="major-cities"
+            name="Search"
+            id="major-cities"
+          />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="col-6 col-sm-3">
+          <input
+            type="text"
+            placeholder="Search Location"
+            name="Search"
+            id="location-name"
+          />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <div class="welcome-city">
+      <div class="row">
+        <div class="col">
+          <h5>Welcome to <span id="currentCityName"></span></h3>
+          <h6>Current weather status <span id="weatherStatus"></span></h6>
+          <h6>Current humditiy <span id="weatherHumidity"></span></h6>
+          <h6>Current temp <span id="weatherTemp"></span></h6>
+          <h6>Current speed <span id="weatherSpeed"></span></h6>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="col-6 col-sm-6">
         <input
           type="text"
           placeholder="major-cities"
@@ -32,7 +76,17 @@
         />
         <button type="submit"><i class="fa fa-search"></i></button>
       </div>
-    </div>
+      <div class="col-6 col-sm-6">
+        <input
+          type="text"
+          class="form-control"
+          id="location-name"
+          aria-describedby="Search Location"
+          placeholder="Search Location"
+        />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+    </div> -->
 
     <br />
     <!-- <div>
