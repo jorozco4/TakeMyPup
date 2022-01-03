@@ -24,31 +24,36 @@ img {
   width: 100%;
   height: auto;
 }
-button {
+/* button {
   justify-content: right;
   padding-right: 30px;
+} */
+
+.row {
+  margin-top: 10px;
+  margin-left: 45%;
 }
 
-.col-md-3 {
+/* .dog-park-search {
   position: absolute;
   bottom: 25rem;
-  margin: 0 2rem;
-  right: 1rem;
-}
-.col-md-4 {
-  position: absolute;
-  bottom: 23rem;
-  margin-left: 0 5rem;
-  left: 1rem;
+  margin-left: 0 0rem;
+  right: 6rem;
+} */
+input:-webkit-autofill {
+  -webkit-text-fill-color: yellow !important;
 }
 
 footer {
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
-
 .fa {
   padding: 5px;
-  font-size: 30px;
+  font-size: 20px;
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -75,4 +80,9 @@ footer {
 }
 .TakeMyPup {
   color: black;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
